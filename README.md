@@ -1,12 +1,9 @@
-## _THIS PROJECT IS AN ENVIRONMENT TEMPLATE FOR FUTURE PROJECTS_
 
-## _This project is not in a complete or portfolio ready state, and should not be considered representational of professional work._
+# _Super Galactic Age Calculator_
 
-# _Application Name_
+#### _If youv'e ever wondered how old you would be if you lived on other planets, this application is for you! The super galactic age calculator will take your age on Earth, and convert it to your age on other planets!_
 
-#### _Brief description of application_
-
-#### _By **Jessica R. Williams**_
+#### _By **Daisy Collins**_
 
 #### _Table of Contents_
 
@@ -20,9 +17,6 @@
 8. [License](#license)
 9. [Contact Information](#contact)
 
-## Preview <a id="preview"></a>
-
-* _Direct your browser to a [live version](https://jessicarubinwilliams.github.io/project/index.html) on GitHub Pages._
 
 ## Technologies Used <a id="technologies"></a>
 
@@ -49,15 +43,15 @@
 * _webpack-dev-server 3.11.2_
 
 ## Description <a id="description"></a>
+  I still have a bit of work to do on this application, but I am confident in what I have built so far and am feeling much more comfortable using webpack! I will soon be adding another function to offer the amount of years past the life expectancy on a planet the user has lived.
 
-_This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have. Balance between a summary of the project and a tame market pitch._
 
 ## Setup/Installation Requirements <a id="setup"></a>
 
 * _Open the terminal on your local machine_
 * _If [Node.js](https://nodejs.org/en/) and [Nope Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)_
 * _Navigate to the directory inside of which you wish to house this project_
-* _Clone this project with the following git command `$ git clone <https://github.com/jessicarubinwilliams/project>`_
+* _Clone this project with the following git command `$ git clone <https://github.com/git-daisy/project>`_
 * _Navigate to the top level of the repository with the command `$ cd project`_
 * _Recreate project environment and install required dependencies with terminal command `$ npm install`_
 * _Create production environment with terminal command `$ npm run build`_
@@ -74,16 +68,17 @@ _This environment was created on a Mac. For it to work properly in your local en
 
 | Behavior | Input | Output |
 |:---:|:---:|:---:|
-| The program should handle... | When it receives... | It should return... |
+| The program should calculate the age of a user on different planets | When it receives a user age, it calculates how old they are on Murcury, Venus, Mars and Jupiter | It should return their life expectancy on that planet and if they have lived past their life expectancy, how many years past that expectancy they lived. |
 
 ## Known Bugs <a id="bugs"></a>
-* _Any known issues_
-* _should go here_
+* Project does not utilize and user interface, I may come back for this later!
+* Not a bug, but the application has unfinished functionality. There needs to be a function to offer how much farther past their life expectancy they lived.
+
 
 ## License <a id="license"></a>
 *[MIT](https://choosealicense.com/licenses/mit/)*
 
-Copyright (c) **_2021 Jessica R. Williams_**
+Copyright (c) **_2021 Daisy Collins_**
 
 ## Contact Information <a id="contact"></a>
-**_Jessica R. Williams [mailto](mailto:jessicarubinwilliams@gmail.com)_**
+daisydcollins12@gmail.com
