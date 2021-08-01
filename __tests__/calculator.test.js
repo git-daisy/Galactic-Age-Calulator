@@ -3,8 +3,8 @@ describe('Age', () => {
   
   test("It should create an object for age and lifeExpectancy", () => {
     let ageKeeper = new Age(34,100);
-    expect(ageKeeper.age).toEqual(34);
-    expect(ageKeeper.lifeExpect).toEqual(100)
+    expect(ageKeeper.userAge).toEqual(34);
+    expect(ageKeeper.userLifeExpect).toEqual(100)
   });
 
   test('It should calculate the age of a user on a given planet', () => {
@@ -16,10 +16,10 @@ describe('Age', () => {
   });
 
   test('It should calculate the life expectancy of a user on a given planet', () => {
-  let ageKeeper = new Age(34,100);
-  expect(ageKeeper.lifeExpect('Murcury')).toEqual(416);
-  expect(ageKeeper.lifeExpect('Venus')).toEqual(161);
-  expect(ageKeeper.lifeExpect('Mars')).toEqual(53);
-  expect(ageKeeper.lifeExpect('Jupiter')).toEqual(8);
-  }); 
+    let ageKeeper = new Age(34,100);
+    expect(ageKeeper.lifeExpect('Murcury')).toEqual(416);
+    expect(ageKeeper.lifeExpect('Venus')).toEqual(161);
+    expect(ageKeeper.lifeExpect('Mars')).toEqual(53);
+    expect(ageKeeper.lifeExpect('Jupiter')).toEqual(8);
+  });
 });
