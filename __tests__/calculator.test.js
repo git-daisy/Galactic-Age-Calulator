@@ -14,4 +14,12 @@ describe('Age', () => {
     expect(ageKeeper.planetAge('Mars')).toEqual(18);
     expect(ageKeeper.planetAge('Jupiter')).toEqual(2);
   });
+
+  test('It should calculate the life expectancy of a user on a given planet', () => {
+  let ageKeeper = new Age(34,100);
+  expect(ageKeeper.lifeExpect('Murcury')).toEqual(416);
+  expect(ageKeeper.lifeExpect('Venus')).toEqual(161);
+  expect(ageKeeper.lifeExpect('Mars')).toEqual(53);
+  expect(ageKeeper.lifeExpect('Jupiter')).toEqual(8);
+  }); 
 });
